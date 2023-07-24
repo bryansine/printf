@@ -6,11 +6,11 @@
  * print_char - It rints a char
  * @types: List a of all the arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates the active flags
  * @width: The width
  * @precision: The recision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of all chars printed
  */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
