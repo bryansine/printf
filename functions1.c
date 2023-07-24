@@ -2,13 +2,13 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
- * print_unsigned - Prints an unsigned number
+ * print_unsigned -It prints an unsigned number
  * @types: List a of arguments
- * @buffer: Buffer array to handle print
+ * @buffer: The buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifier
+ * @size:The size specifier
  * Return: Number of chars printed.
  */
 int print_unsigned(va_list types, char buffer[],
@@ -40,10 +40,10 @@ int print_unsigned(va_list types, char buffer[],
  * print_octal - Prints an unsigned number in octal notation
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates the active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: The size specifier
  * Return: Number of chars printed
  */
 int print_octal(va_list types, char buffer[],
@@ -82,10 +82,10 @@ int print_octal(va_list types, char buffer[],
  * print_hexadecimal - Prints an unsigned number in hexadecimal notation
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates the active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: The size specifier
  * Return: Number of chars printed
  */
 int print_hexadecimal(va_list types, char buffer[],
@@ -100,11 +100,11 @@ int print_hexadecimal(va_list types, char buffer[],
  * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates the active flags
  * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @precision: The precision specification
+ * @size: The size specifier
+ * Return: The number of chars printed
  */
 int print_hexa_upper(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
