@@ -3,12 +3,12 @@
 /** PRINT CHAR **/
 
 /**
- * print_char - Prints a char
- * @types: List a of arguments
+ * print_char - It rints a char
+ * @types: List a of all the arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: Width
- * @precision: Precision specification
+ * @width: The width
+ * @precision: The recision specification
  * @size: Size specifier
  * Return: Number of chars printed
  */
@@ -146,10 +146,10 @@ int print_int(va_list types, char buffer[],
  * print_binary - Prints an unsigned number
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates the active flags
  * @width: get width.
  * @precision: Precision specification
- * @size: Size specifier
+ * @size:The size specifier
  * Return: Numbers of char printed.
  */
 int print_binary(va_list types, char buffer[],
