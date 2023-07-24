@@ -3,13 +3,12 @@
 /************************* WRITE HANDLE *************************/
 /**
  * handle_write_char - Prints a string
- * @c: char types.
+ * @c: The char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
+ * @flags:  Calculates the active flags.
  * @width: get width.
  * @precision: precision specifier
- * @size: Size specifier
- *
+ * @size: The size specifier
  * Return: Number of chars printed.
  */
 int handle_write_char(char c, char buffer[],
@@ -50,10 +49,10 @@ int handle_write_char(char c, char buffer[],
  * @is_negative: Lista of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates the active flags
  * @width: get width.
  * @precision: precision specifier
- * @size: Size specifier
+ * @size: The size specifier
  *
  * Return: Number of chars printed.
  */
@@ -83,13 +82,13 @@ int write_number(int is_negative, int ind, char buffer[],
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
  * @flags: Flags
- * @width: width
+ * @width: The width
  * @prec: Precision specifier
  * @length: Number length
  * @padd: Pading char
  * @extra_c: Extra char
  *
- * Return: Number of printed chars.
+ * Return: The number of printed chars.
  */
 int write_num(int ind, char buffer[],
 	int flags, int width, int prec,
@@ -140,12 +139,12 @@ int write_num(int ind, char buffer[],
 /**
  * write_unsgnd - Writes an unsigned number
  * @is_negative: Number indicating if the num is negative
- * @ind: Index at which the number starts in the buffer
+ * @ind: The index at which the number starts in the buffer
  * @buffer: Array of chars
- * @flags: Flags specifiers
+ * @flags: The flags specifiers
  * @width: Width specifier
  * @precision: Precision specifier
- * @size: Size specifier
+ * @size: The size specifier
  *
  * Return: Number of written chars.
  */
@@ -197,7 +196,7 @@ int write_unsgnd(int is_negative, int ind,
 
 /**
  * write_pointer - Write a memory address
- * @buffer: Arrays of chars
+ * @buffer: The arrays of chars
  * @ind: Index at which the number starts in the buffer
  * @length: Length of number
  * @width: Wwidth specifier
